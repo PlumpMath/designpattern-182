@@ -1,5 +1,5 @@
 package creational.abstractfactorypattern;
 
-public class Processor {
-
+public interface Processor {
+	void PerformOperation();
 }
