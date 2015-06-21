@@ -8,11 +8,11 @@ public class FundCheck {
 		return cashInAccount;
 	}
 	
-	public void decreaseCashInAccount(double cashWithdrawn){
+	private void decreaseCashInAccount(double cashWithdrawn){
 		cashInAccount-=cashWithdrawn;
 	}
 	
-	public void increaseCashInAccount(double deposit){
+	private void increaseCashInAccount(double deposit){
 		cashInAccount+=deposit;
 	}
 	

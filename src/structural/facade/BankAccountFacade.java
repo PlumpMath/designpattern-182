@@ -48,9 +48,5 @@ public class BankAccountFacade {
 		else{
 			System.out.println("Transaction Failed.");
 		}
-		
 	}
-	
-	
-
 }
