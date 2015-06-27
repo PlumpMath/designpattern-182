@@ -9,6 +9,10 @@ import java.lang.reflect.Modifier;
 public class ReflectionMain {
 
 	public static void main(String[] args) {
+		
+		//IMP -- Get the class dynamically
+		//Class tempClass = Class.forName(fromConversion);
+		
 		Class reflectClass = ClassB.class;
 		
 		String className=reflectClass.getName();
