@@ -15,9 +15,9 @@ public class DiscJokey {
 	}
 	
 	public void showSongs(){
-		Iterator song70s = songOf70s.createIterator();
-		Iterator song80s = songOf80s.createIterator();
-		Iterator song90s = songOf90s.createIterator();
+		Iterator<SongInfo> song70s = songOf70s.createIterator();
+		Iterator<SongInfo> song80s = songOf80s.createIterator();
+		Iterator<SongInfo> song90s = songOf90s.createIterator();
 		
 		System.out.println("Song of 70s");
 		printSongs(song70s);
@@ -29,7 +29,7 @@ public class DiscJokey {
 		printSongs(song90s);
 	}
 	
-	public void printSongs(Iterator iter) {
+	public void printSongs(Iterator<SongInfo> iter) {
 		while(iter.hasNext()){
 			SongInfo song=(SongInfo) iter.next();
 			System.out.println("Song Name :"+song.getSongName());

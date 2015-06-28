@@ -24,7 +24,7 @@ public class SongOf90s implements SongIterator{
 	}
 
 	@Override
-	public Iterator createIterator() {
+	public Iterator<SongInfo> createIterator() {
 		return bestSongs.values().iterator();
 	}
 }

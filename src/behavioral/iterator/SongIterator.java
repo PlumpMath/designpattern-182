@@ -4,6 +4,6 @@ import java.util.Iterator;
 
 public interface SongIterator {
 	
-	public Iterator createIterator();
+	public Iterator<SongInfo> createIterator();
 
 }

@@ -1,6 +1,5 @@
 package behavioral.iterator;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Iterator;
 
@@ -27,7 +26,7 @@ public class SongOf80s implements SongIterator{
 	}
 
 	@Override
-	public Iterator createIterator() {
+	public Iterator<SongInfo> createIterator() {
 		return Arrays.asList(bestSongs).iterator();
 	}
 }
