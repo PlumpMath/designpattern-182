@@ -1,6 +1,6 @@
 package behavioral.iterator;
 
-public class RadioStattion {
+public class RadioStation {
 
 	public static void main(String[] args) {
 		SongOf70s songOf70s=new SongOf70s();
