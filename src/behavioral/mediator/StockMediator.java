@@ -19,7 +19,7 @@ public class StockMediator implements Mediator{
 	public void addColleague(Colleague colleague) {
 		colleagues.add(colleague);
 		colleagueCode++;
-		colleague.setCollCode(colleagueCode);
+		colleague.setColleagueCode(colleagueCode);
 		System.out.println("Added colleague with code " + colleagueCode );
 	}
 	

@@ -26,7 +26,7 @@ public abstract class Colleague {
 		mediator.buyOffer(stock,shares,this.colleagueCode);
 	}
 	
-	public void setCollCode(int colleagueCode){
+	public void setColleagueCode(int colleagueCode){
 		this.colleagueCode=colleagueCode;
 	}
 }
